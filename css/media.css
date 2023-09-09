@@ -1,0 +1,452 @@
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* header section start here  */
+
+    .home_content h1 {
+        line-height: 80px;
+    }
+    /* header section end here  */
+
+     /* work section start here  */
+
+     .work_heading p {
+        text-align: justify;
+    }
+
+    .card_overlay h3 {
+        padding-top: 25px;
+    }
+
+    .card_overlay p {
+        padding: 0px 14px;
+    }
+    /* work section end here  */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* home section start here */
+
+    .home_content h1 {
+        line-height: 70px;
+    }
+
+    /* home section end here */
+
+    /* about section start here  */
+
+    .heading p {
+        text-align: justify;
+    }
+
+    /* about section end here  */
+
+
+    /* service section start here  */
+
+    .services_heading p {
+        text-align: justify;
+    }
+
+    .services_card h3 {
+        font-size: 15px;
+    }
+
+    /* service section end here  */
+
+
+    /* work section start here  */
+
+    .work_heading p {
+        text-align: justify;
+    }
+
+    .card_overlay h3 {
+        padding-top: 25px;
+    }
+
+    .card_overlay p {
+        padding: 0px 14px;
+    }
+    /* work section end here  */
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+         /* header part start here  */
+
+         .navbar-nav  {
+            text-align: center;
+        }
+    
+        /* header part end here  */
+    
+        /* home section start here  */
+    
+        .home_overlay {
+            padding-top: 135px;
+            padding-bottom: 105px;
+        }
+    
+        .home_content h3 {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+    
+        .home_content h1 {
+            line-height: 70px;
+        }
+    
+        
+        .heading p {
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 30px;
+            margin-bottom: 10px;
+            padding: 0px 20px;
+            text-align: justify;
+        }
+    
+        /* home section end here  */
+    
+    
+    
+        /* about section start here  */
+    
+        #about .col-md-6 {
+            border-bottom: 1px solid #a9acaf;
+        }
+    
+        .acb1 {
+            border-right: none !important;
+        }
+        .acb {
+            border-bottom: none !important;
+        }
+        
+        /* about section end here  */
+    
+    
+    
+        /* services section start here  */
+    
+        .services_heading {
+            width: 50%;
+        }
+        .services_heading p {
+            line-height: 30px;
+            text-align: justify;
+        }
+    
+        .services_card {
+            text-align: left;
+            width: 50%;
+        }
+        .card_3 {
+            margin-bottom: 3rem;
+        }
+    
+        .services_card p {
+            margin-bottom: 10px;
+        }
+    
+        /* services section end here  */
+    
+        /* MY WORK section start here  */
+    
+        .work_heading h3 {
+            font-size: 36px;
+        }
+    
+        .work_heading p {
+            margin-bottom: 30px;
+            padding: 0 110px;
+            text-align: justify;
+        }
+    
+        .work_item {
+            width: 50%;
+        }
+    
+        .card_overlay h3 {
+            padding-top: 80px;
+        }
+    
+        .card_overlay p {
+            padding: 0px 47px;
+        }
+        /* MY WORK section end here  */
+    
+        /* back to top  start here  */
+    
+        .back-to-top {
+            right: 20px;
+            bottom: 20px;
+        }
+     
+        /* back to top  end here  */
+    
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /* header part start here  */
+
+     .navbar-nav  {
+        text-align: center;
+    }
+
+    /* header part end here  */
+
+    /* home section start here  */
+
+    .home_overlay {
+        padding-top: 135px;
+        padding-bottom: 105px;
+    }
+
+    .home_content h3 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .home_content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        line-height: 40px;
+    }
+
+    .home_content p {
+        line-height: 20px;
+    }
+
+    .heading p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 10px;
+        padding: 0px 20px;
+        text-align: justify;
+    }
+    /* home section end here  */
+
+
+
+    /* about section start here  */
+
+    .about_content {
+        border-bottom: 1px solid #a9acaf;
+    }
+
+    .about_content p {
+        padding: 0 100px;
+    }
+    /* about section end here  */
+
+
+
+    /* services section start here  */
+
+    .services_heading p {
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .services_card {
+        text-align: center;
+        border-bottom: 1px solid #a9acaf;
+    }
+    .card_3 {
+        margin-bottom: 3rem;
+    }
+
+    .services_card p {
+        padding: 0 100px;
+        margin-bottom: 10px;
+    }
+
+    /* services section end here  */
+
+    /* MY WORK section start here  */
+
+    .work_heading h3 {
+        font-size: 36px;
+    }
+
+    .work_heading p {
+        font-size: 15px;
+        line-height: 31px;
+        margin-bottom: 30px;
+        padding: 0 6px;
+        text-align: justify;
+    }
+
+    .work_item {
+        width: 50%;
+    }
+
+    .card_overlay h3 {
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .card_overlay p {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0px 20px;
+    }
+    /* MY WORK section end here  */
+
+    /* back to top  start here  */
+
+    .back-to-top {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .back-to-top i {
+        font-size: 30px;
+    }
+    
+    /* back to top  end here  */
+
+ }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+
+
+    /* header part start here  */
+
+    .navbar-nav  {
+        text-align: center;
+    }
+
+    /* header part end here  */
+
+    /* home section start here  */
+
+    .home_overlay {
+        padding-top: 135px;
+        padding-bottom: 105px;
+    }
+
+    .home_content h3 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .home_content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        line-height: 40px;
+    }
+
+    .home_content p {
+        line-height: 20px;
+    }
+
+    .heading p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 10px;
+        padding: 0px 20px;
+        text-align: justify;
+    }
+    /* home section end here  */
+
+
+
+    /* about section start here  */
+
+    .about_content {
+        border-bottom: 1px solid #a9acaf;
+    }
+
+    /* about section end here  */
+
+
+
+    /* services section start here  */
+
+    .services_heading p {
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .services_card {
+        text-align: center;
+        border-bottom: 1px solid #a9acaf;
+    }
+    .card_3 {
+        margin-bottom: 3rem;
+    }
+
+    .services_card p {
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    /* services section end here  */
+
+    /* MY WORK section start here  */
+
+    .work_heading h3 {
+        font-size: 36px;
+    }
+
+    .work_heading p {
+        font-size: 15px;
+        line-height: 31px;
+        margin-bottom: 30px;
+        padding: 0 6px;
+        text-align: justify;
+    }
+
+    .work_item {
+        width: 50%;
+    }
+
+    .card_overlay h3 {
+        font-size: 14px;
+        font-weight: 300;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .card_overlay p {
+        font-size: 9px;
+        font-weight: 300;
+        line-height: 9px;
+        padding: 0 0;
+    }
+    /* MY WORK section end here  */
+
+    /* back to top  start here  */
+
+    .back-to-top {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .back-to-top i {
+        font-size: 30px;
+    }
+    
+    /* back to top  end here  */
+
+ }

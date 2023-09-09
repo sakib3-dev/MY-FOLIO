@@ -1,0 +1,347 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* font link  */
+
+
+/* All common css start here  */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+body {
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* All common css end here  */
+
+/* navbar start here  */
+
+.navbar {
+    background: #02918c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 111111;
+}
+
+/* navbar end here  */
+
+
+/* home section start here  */
+
+#home {
+    background: url(../images/home_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_overlay {
+    padding-top: 270px;
+    padding-bottom: 210px;
+    background: linear-gradient(to right, rgba(14, 128, 124, 0.18), rgba(207, 201, 29, 0.18) );
+    text-align: center;
+    position: relative;
+}
+
+.home_content h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffff;
+}
+.home_content h1 {
+    font-size: 68px;
+    font-weight: 800;
+    color: #ffff;
+    letter-spacing: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.home_content p {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffff;
+}
+.home_overlay  a {
+    background: #cfc91d;
+    padding: 19px 43px;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    margin-top: 180px;
+
+}
+
+/* home section start here  */
+
+/* about section start here  */
+
+#about {
+    padding: 98px 0;
+}
+
+.heading h3 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+.heading img {
+    padding-top: 32px;
+    padding-bottom: 36px;
+}
+.heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+    margin-bottom: 84px;
+    padding: 0 120px;
+}
+.heading p span {
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+
+.about_content h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 30px 0;
+}
+.about_content p {
+	font-size: 11px;
+	font-weight: 400;
+	color: #7e8287;
+	line-height: 21px;
+	padding: 0 30px;
+}
+
+/* about section end here  */
+
+/* services section start here  */
+
+#services {
+    background: url(../images/service-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 74px;
+    padding-bottom: 86px;
+}
+
+.services_heading h3 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+
+.services_heading img {
+    padding-top: 32px;
+    padding-bottom: 36px;
+}
+
+.services_heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+    margin-bottom: 55px;
+}
+
+.services_card i {
+    font-size: 33px;
+    color: #02918c;
+}
+.services_card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding-top: 17px;
+    padding-bottom: 19px;
+}
+.services_card p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 21px;
+}
+
+/* services section end here  */
+
+/* work section start here  */
+
+#work {
+    padding-top: 110px;
+}
+
+.work_heading h3 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+.work_heading img {
+    padding-top: 32px;
+    padding-bottom: 31px;
+}
+.work_heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+    margin-bottom: 78px;
+    padding: 0 80px;
+}
+.work_heading p span {
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+.work_item {
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+}
+.work_item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card_overlay {
+    background-color: rgba(18, 133, 127, 0.8);
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    bottom: 20px;
+    right: 30px;
+    transition: all .5s;
+    transform: scaleX(0);
+    transform-origin: left;
+    text-align: center;
+}
+.card_overlay h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffff;
+    padding-top: 130px;
+    padding-bottom: 20px;
+
+}
+.card_overlay p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffff;
+    line-height: 21px;
+    padding: 0 117px;
+}
+
+.work_item:hover .card_overlay {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: all .5s;
+}
+
+/* work section end here  */
+
+/* contact section start here  */
+
+#contact {
+    padding-top: 100px;
+}
+
+.form_part {
+	padding: 70px 0;
+	background: rgba(11, 11, 11, 0.9);
+	text-align: center;
+}
+
+input {
+	width: 100%;
+	background: transparent;
+	border-bottom: 1px solid #7e8287;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.form_part form input::placeholder {
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+}
+.form_part button{
+    background: #cfc91d;
+    padding: 19px 64px;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    
+}
+
+/* contact section end here  */
+
+/* footer part start here  */
+
+#footer {
+    padding: 35px 0;
+    background: #000000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7e8287;
+}
+
+/* footer part start end  */
+
+/* back-to-top  */
+
+.back-to-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.back-to-top i {
+    font-size: 50px;
+    color: #02918c;
+}
+.back-to-top i:hover {
+    color: #cfc91d;
+}
+
+/* back-to-top  */
+
+
